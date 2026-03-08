@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eren Arda Kaplan | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">E.A.K.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#about">Über mich</a></li>
+                <li><a href="#experience">Erfahrung</a></li>
+                <li><a href="#education">Bildung</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <!-- Language Switcher -->
+                <li class="lang-switcher">
+                    <a href="index.html" class="lang-btn">EN</a>
+                    <span class="lang-divider">|</span>
+                    <a href="index-de.html" class="lang-btn active">DE</a>
+                </li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content reveal-fade-up">
+            <h3 class="greeting">Hallo, ich bin</h3>
+            <h1 class="name">Eren Arda Kaplan</h1>
+            <h2 class="dynamic-title">
+                <span class="typing-text"></span><span class="cursor">&nbsp;</span>
+            </h2>
+            <p class="hero-desc">
+                Masterstudent für Chemie- und Verfahrenstechnik. Ein leidenschaftlicher Ingenieur, der sich für Qualitätssicherung, Prozessoptimierung und operative Exzellenz einsetzt.
+            </p>
+            <div class="hero-btns">
+                <a href="#about" class="btn btn-primary">Mehr über mich <i class="fas fa-arrow-down"></i></a>
+                <a href="#contact" class="btn btn-outline">Kontakt</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title reveal-fade-up">Über mich</h2>
+            <div class="about-grid">
+                <div class="about-img reveal-fade-right">
+                    <div class="img-wrapper">
+                        <img src="photo.png" alt="Eren Arda Kaplan"
+                            onerror="this.src='https://ui-avatars.com/api/?name=Eren+Arda+Kaplan&background=3b82f6&color=fff&size=500'">
+                        <div class="img-backdrop"></div>
+                    </div>
+                </div>
+                <div class="about-text-container reveal-fade-left">
+                    <h3 class="about-subtitle">Berufliches Profil</h3>
+                    <p class="about-text">
+                        Ich absolviere derzeit mein Masterstudium in Chemie- und Verfahrenstechnik an der Technischen Universität Wien (TU Wien). Ich verfüge über aktive Erfahrung in den Bereichen Qualitätssicherung (QA), Dokumentation und Auditprozesse.
+                    </p>
+                    <div class="highlight-box">
+                        <i class="fas fa-info-circle info-icon"></i>
+                        <p>Als Student in Österreich habe ich derzeit eine <strong>Arbeitserlaubnis für bis zu 20 Stunden pro Woche</strong>. Für Vollzeitstellen benötige ich ein <strong>Visum-Sponsoring</strong>.</p>
+                    </div>
+                    <p class="about-text">
+                        Mit meiner sorgfältigen, qualitätsorientierten Arbeitsweise und meiner Begeisterung für Prozessverbesserungen strebe ich danach, zum Erfolg meines Unternehmens maßgeblich beizutragen.
+                    </p>
+
+                    <div class="skills-wrapper">
+                        <h4 class="skills-title">Fähigkeiten & Kompetenzen</h4>
+                        
+                        <div class="skills-category">
+                            <span class="category-label"><i class="fas fa-globe"></i> Sprachen:</span>
+                            <span class="skill-pill">Englisch (C1)</span>
+                            <span class="skill-pill">Deutsch (B1 Level, B2 Kurs Laufend)</span>
+                            <span class="skill-pill">Türkisch (Muttersprache)</span>
+                        </div>
+
+                        <div class="skills-category mt-3">
+                            <span class="category-label"><i class="fas fa-gavel"></i> Vorschriften:</span>
+                            <span class="skill-pill">EMA Guidelines</span>
+                            <span class="skill-pill">EU GMP Annex 1 / 15</span>
+                            <span class="skill-pill">ISO 9001</span>
+                            <span class="skill-pill">ICH Guidelines</span>
+                        </div>
+
+                        <div class="skills-category mt-3">
+                            <span class="category-label"><i class="fas fa-laptop-code"></i> Software & Daten:</span>
+                            <span class="skill-pill" title="Automatisierung der QA-Datenanalyse und Fehlerreduzierung auf Null">Python (Erweitert)</span>
+                            <span class="skill-pill" title="Datengesteuerte Prozessverbesserung">Excel VBA</span>
+                            <span class="skill-pill">SAP & MES</span>
+                            <span class="skill-pill">MS Office</span>
+                        </div>
+
+                        <div class="skills-category mt-3">
+                            <span class="category-label"><i class="fas fa-users"></i> Soft Skills:</span>
+                            <span class="skill-pill">Ursachenanalyse (RCA)</span>
+                            <span class="skill-pill">Abteilungsübergreifende Zusammenarbeit</span>
+                            <span class="skill-pill">Hohe Detailgenauigkeit</span>
+                            <span class="skill-pill">Problemlösung</span>
+                        </div>
+
+                        <div class="skills-category mt-3">
+                            <span class="category-label"><i class="fas fa-flask"></i> Labor:</span>
+                            <span class="skill-pill">Fettanalyse</span>
+                            <span class="skill-pill">Katalysatorsynthese</span>
+                            <span class="skill-pill">Photokatalyse</span>
+                            <span class="skill-pill">UV-Vis-Spektroskopie</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section alt-bg">
+        <div class="container">
+            <h2 class="section-title reveal-fade-up">Berufserfahrung</h2>
+            
+            <div class="timeline">
+                
+                <!-- Abdi Ibrahim Experience -->
+                <div class="timeline-item reveal-fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3 class="role">Qualitätssicherungsingenieur</h3>
+                            <span class="date"><i class="far fa-calendar-alt"></i> Mär 2024 - Jan 2025</span>
+                        </div>
+                        <h4 class="company"><i class="fas fa-building"></i> Abdi Ibrahim Pharmaceuticals | Istanbul, Türkei</h4>
+                        <ul class="task-list">
+                            <li><strong>Qualitätsmanagement:</strong> Verwaltung, Untersuchung und Berichterstattung von Abweichungen, Änderungskontrollen, Dokumentation, PQR-, OOS- und OOT-Prozessen für <strong>mehr als 10 Produkte</strong>.</li>
+                            <li><strong>Prozessoptimierung:</strong> Entwicklung von Excel-VBA-Skripten zur Automatisierung der Datenanalyse, wodurch die Berichterstellung um 30 % beschleunigt wurde.</li>
+                            <li><strong>Änderungsmanagement:</strong> Optimierung von Abweichungsmanagementprozessen, was eine schnellere Datenabfrage und höhere Genauigkeit ermöglichte.</li>
+                            <li><strong>Schulung & Führung:</strong> Fungierte als Key User für SAP- und MES-Systeme; erstellte Schulungsvideos und Dokumentationen zur Verbesserung der Teameffizienz.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Kalekim Experience -->
+                <div class="timeline-item reveal-fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3 class="role">Produktionspraktikant</h3>
+                            <span class="date"><i class="far fa-calendar-alt"></i> Jul 2023 - Aug 2023</span>
+                        </div>
+                        <h4 class="company"><i class="fas fa-building"></i> Kalekim | Istanbul, Türkei</h4>
+                        <ul class="task-list">
+                            <li>Unterstützung bei der Implementierung von Lean-Production-Techniken zur Optimierung von Fertigungsabläufen.</li>
+                            <li>Analyse von Produktionsliniendaten und Vorschlag umsetzbarer Verbesserungen in funktionsübergreifenden Team-Meetings.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Mérieux NutriSciences Experience -->
+                <div class="timeline-item reveal-fade-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3 class="role">Laborpraktikant</h3>
+                            <span class="date"><i class="far fa-calendar-alt"></i> Jul 2022 - Aug 2022</span>
+                        </div>
+                        <h4 class="company"><i class="fas fa-flask"></i> Mérieux NutriSciences | Istanbul, Türkei</h4>
+                        <ul class="task-list">
+                            <li>Durchführung analytischer Laborverfahren mit Schwerpunkt auf Fettanalysen und physikochemischen Tests.</li>
+                            <li>Anwendung theoretischer Chemiekenntnisse auf praktische Qualitätskontrollstandards (GLP).</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Extras Section -->
+    <section id="education" class="education section">
+        <div class="container">
+            <h2 class="section-title reveal-fade-up">Bildung</h2>
+            
+            <div class="cards-grid">
+                <!-- Master -->
+                <div class="edu-card glass-card reveal-fade-up" style="transition-delay: 0.1s;">
+                    <div class="edu-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="edu-details">
+                        <span class="edu-year">2025 – Heute</span>
+                        <h3 class="edu-degree">Master of Science</h3>
+                        <h4 class="edu-major">Chemie- und Verfahrenstechnik</h4>
+                        <p class="edu-school">TU Wien - Wien, Österreich</p>
+                        <p class="edu-meta mt-2"><i class="fas fa-bullseye"></i> Spezialisierung: Nachhaltige Produktion</p>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+
+                <!-- Bachelor -->
+                <div class="edu-card glass-card reveal-fade-up" style="transition-delay: 0.2s;">
+                    <div class="edu-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="edu-details">
+                        <span class="edu-year badge-warning" style="background: rgba(59,130,246,0.1); color: var(--primary);">2018 - 2023</span>
+                        <h3 class="edu-degree">Bachelor of Science</h3>
+                        <h4 class="edu-major">Chemieingenieurwesen</h4>
+                        <p class="edu-school">Marmara Universität - Istanbul, Türkei</p>
+                        <p class="edu-meta mt-2" style="font-size: 0.85rem; color: var(--text-muted); text-align: left;">
+                            <strong>Abschlussprojekt:</strong> Entwicklung heterogener photokatalytischer Katalysatoren (MoS2/g-C3N4) zur Wasserstoffproduktion.<br>
+                            <em>Erreichte eine Wasserstoffproduktionsrate von 345,3 µmol s⁻¹ mit synthetisierten Katalysatoren.</em>
+                        </p>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+
+            <!-- Certificates & Leadership -->
+            <div class="extras-grid reveal-fade-up mt-5">
+                <div class="extra-panel glass-card">
+                    <h3><i class="fas fa-certificate text-primary"></i> Zertifikate</h3>
+                    <ul class="extra-list">
+                        <li><strong>Fortgeschrittene Python-Programmierung von Null an</strong> - BTK Akademi</li>
+                        <li><strong>ÖSD-Zertifikat A2</strong> - Deutsch-Sprachzertifikat</li>
+                    </ul>
+                </div>
+                <div class="extra-panel glass-card">
+                    <h3><i class="fas fa-users text-primary"></i> Führung & Mitgliedschaften</h3>
+                    <ul class="extra-list">
+                        <li>
+                            <strong>Veranstaltungsorganisator</strong> (2018 - 2023)<br>
+                            <em>Club für Chemieingenieurwesen (CESSMU), Marmara Universität</em><br>
+                            Organisation eines Ingenieurgipfels zu aktuellen Innovationen und Verwaltung der Veranstaltungslogistik.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section alt-bg">
+        <div class="container">
+            <h2 class="section-title reveal-fade-up">Kontakt</h2>
+            <p class="contact-subtitle reveal-fade-up">Ich bin immer offen für neue Möglichkeiten und Kooperationen.</p>
+            
+            <div class="contact-cards-wrapper reveal-fade-up" style="transition-delay: 0.2s;">
+                <a href="mailto:eren.arda2000@hotmail.com" class="contact-card glass-card">
+                    <div class="icon-wrapper"><i class="fas fa-envelope"></i></div>
+                    <h3>E-Mail</h3>
+                    <p>eren.arda2000@hotmail.com</p>
+                </a>
+                
+                <div class="contact-card glass-card">
+                    <div class="icon-wrapper"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Ort</h3>
+                    <p>Wien, Österreich</p>
+                </div>
+                
+                <a href="https://www.linkedin.com/in/erenarda-kaplan/" target="_blank" rel="noopener noreferrer" class="contact-card glass-card">
+                    <div class="icon-wrapper"><i class="fab fa-linkedin-in"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>Eren Arda Kaplan</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Eren Arda Kaplan. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script>
+        // Override typing text for German
+        window.typingTexts = ["Chemieingenieur", "QA Spezialist", "Verfahrensingenieur"];
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
